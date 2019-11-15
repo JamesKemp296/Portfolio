@@ -1,0 +1,51 @@
+.navbarLinks {
+  color: white;
+}
+
+.navbar {
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  min-height: 500px;
+  background-color: #181818;
+}
+  
+/* nav {
+  
+} */
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  background-color: #81FCD8;
+  height: 80px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  font-size: 3rem;
+  font-style: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+  margin-top: 50px;
+}
+
+svg {
+  width: 24px;
+  height: 24px;
+  color: #81FCD8;
+}
+
+.socialLinks {
+  padding: 0;
+}
