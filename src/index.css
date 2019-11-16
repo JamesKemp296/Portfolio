@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #1D1D1D;
+  background-color: #5199D1;
 }
 
 li {
@@ -9,13 +9,4 @@ li {
 
 a {
   text-decoration: none;
-}
-
-a:visited {
-  color: white;
-}
-
-h1 {
-  margin-top: 400px;
-  text-align: center;
 }
