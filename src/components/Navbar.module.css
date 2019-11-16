@@ -1,27 +1,40 @@
 #header {
-  background-color: lightblue;
+  color: white;
+  border-bottom: 1px solid black;
+}
+
+#headerGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   position: relative;
   max-width: 1080px;
   margin: 0 auto;
   padding: 20px 20px 0 20px;
 }
 
-#headerGroup, .headerGroupLeft, .headerGroupRight {
+.navbar ul li {
+  width: auto;
+  max-width: 100%;
+  display: inline-block;
+  zoom: 1;
+  vertical-align: middle;
+  border: none;
+}
+
+ul li a {
+  font-size: 1rem;
+  padding: 0 20px;
+}
+
+.navbar ul {
   display: flex;
   flex-direction: row;
-}
-
-.headerGroupLeft {
- 
-}
-
-.headerGroupRight {
- 
 }
 
 .navbar {
-  display: flex;
-  flex-direction: row;
+  margin-left: 0;
+  margin-left: auto;
 }
 
 .logo {
@@ -41,6 +54,7 @@
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-weight: 700;
 }
 
 .logoName h2 {
@@ -48,4 +62,10 @@
   letter-spacing: 1px;
   margin: 0;
   padding: 0;
+}
+
+#logoGroup {
+  display: flex;
+  place-items: center;
+  margin-right: auto;
 }
