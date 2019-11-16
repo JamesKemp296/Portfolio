@@ -1,5 +1,12 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+body {
   background-color: #5199D1;
 }
 
@@ -9,4 +16,18 @@ li {
 
 a {
   text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a.active {
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
 }
